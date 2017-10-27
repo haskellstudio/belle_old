@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{627C814C-51C3-42D8-A464-E74AF0BF1641}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>VSBelle</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="include\belle-abstracts.h" />
+    <ClInclude Include="include\belle-accidental-state.h" />
+    <ClInclude Include="include\belle-accidentals.h" />
+    <ClInclude Include="include\belle-annotations.h" />
+    <ClInclude Include="include\belle-api-header.h" />
+    <ClInclude Include="include\belle-api-source.h" />
+    <ClInclude Include="include\belle-api.h" />
+    <ClInclude Include="include\belle-articulations.h" />
+    <ClInclude Include="include\belle-barline-state.h" />
+    <ClInclude Include="include\belle-barline.h" />
+    <ClInclude Include="include\belle-beaming.h" />
+    <ClInclude Include="include\belle-blank.h" />
+    <ClInclude Include="include\belle-brush.h" />
+    <ClInclude Include="include\belle-cache.h" />
+    <ClInclude Include="include\belle-chord-state.h" />
+    <ClInclude Include="include\belle-clef-state.h" />
+    <ClInclude Include="include\belle-clef.h" />
+    <ClInclude Include="include\belle-colors.h" />
+    <ClInclude Include="include\belle-core.h" />
+    <ClInclude Include="include\belle-coregraphics.h" />
+    <ClInclude Include="include\belle-dots.h" />
+    <ClInclude Include="include\belle-drawable.h" />
+    <ClInclude Include="include\belle-engraver-utility.h" />
+    <ClInclude Include="include\belle-engraver.h" />
+    <ClInclude Include="include\belle-equivalence.h" />
+    <ClInclude Include="include\belle-expressions.h" />
+    <ClInclude Include="include\belle-filter-autocorrect.h" />
+    <ClInclude Include="include\belle-filter-beaming.h" />
+    <ClInclude Include="include\belle-filter-harmonization.h" />
+    <ClInclude Include="include\belle-filter-interval.h" />
+    <ClInclude Include="include\belle-filter-pitch.h" />
+    <ClInclude Include="include\belle-filter-rhythm.h" />
+    <ClInclude Include="include\belle-filter-staff-select.h" />
+    <ClInclude Include="include\belle-filter-time.h" />
+    <ClInclude Include="include\belle-filter-traversal.h" />
+    <ClInclude Include="include\belle-flags.h" />
+    <ClInclude Include="include\belle-font.h" />
+    <ClInclude Include="include\belle-formats.h" />
+    <ClInclude Include="include\belle-freetype.h" />
+    <ClInclude Include="include\belle-general.h" />
+    <ClInclude Include="include\belle-geometry.h" />
+    <ClInclude Include="include\belle-graphic.h" />
+    <ClInclude Include="include\belle-helper.h" />
+    <ClInclude Include="include\belle-house-style.h" />
+    <ClInclude Include="include\belle-incipits.h" />
+    <ClInclude Include="include\belle-instant-state.h" />
+    <ClInclude Include="include\belle-island-generators.h" />
+    <ClInclude Include="include\belle-island-state.h" />
+    <ClInclude Include="include\belle-island.h" />
+    <ClInclude Include="include\belle-juce.h" />
+    <ClInclude Include="include\belle-key-signature-state.h" />
+    <ClInclude Include="include\belle-key-signature.h" />
+    <ClInclude Include="include\belle-label.h" />
+    <ClInclude Include="include\belle-ledger-lines.h" />
+    <ClInclude Include="include\belle-measure-rest.h" />
+    <ClInclude Include="include\belle-midi.h" />
+    <ClInclude Include="include\belle-multivoice.h" />
+    <ClInclude Include="include\belle-music-iterator.h" />
+    <ClInclude Include="include\belle-music.h" />
+    <ClInclude Include="include\belle-musicxml.h" />
+    <ClInclude Include="include\belle-notes.h" />
+    <ClInclude Include="include\belle-octave-transposition.h" />
+    <ClInclude Include="include\belle-optics.h" />
+    <ClInclude Include="include\belle-painters.h" />
+    <ClInclude Include="include\belle-part-state.h" />
+    <ClInclude Include="include\belle-path.h" />
+    <ClInclude Include="include\belle-pdf.h" />
+    <ClInclude Include="include\belle-pedal-markings.h" />
+    <ClInclude Include="include\belle-performance.h" />
+    <ClInclude Include="include\belle-phrasing.h" />
+    <ClInclude Include="include\belle-placement.h" />
+    <ClInclude Include="include\belle-publisher.h" />
+    <ClInclude Include="include\belle-rests.h" />
+    <ClInclude Include="include\belle-rhythm.h" />
+    <ClInclude Include="include\belle-score.h" />
+    <ClInclude Include="include\belle-search.h" />
+    <ClInclude Include="include\belle-shapes.h" />
+    <ClInclude Include="include\belle-spacing.h" />
+    <ClInclude Include="include\belle-springs.h" />
+    <ClInclude Include="include\belle-stamp.h" />
+    <ClInclude Include="include\belle-stems.h" />
+    <ClInclude Include="include\belle-svg-painter.h" />
+    <ClInclude Include="include\belle-svg.h" />
+    <ClInclude Include="include\belle-system-generators.h" />
+    <ClInclude Include="include\belle-system.h" />
+    <ClInclude Include="include\belle-test-suite-data.h" />
+    <ClInclude Include="include\belle-test-suite.h" />
+    <ClInclude Include="include\belle-test.h" />
+    <ClInclude Include="include\belle-text.h" />
+    <ClInclude Include="include\belle-time-signature-state.h" />
+    <ClInclude Include="include\belle-time-signature.h" />
+    <ClInclude Include="include\belle-transform.h" />
+    <ClInclude Include="include\belle-transitive.h" />
+    <ClInclude Include="include\belle-tuplets.h" />
+    <ClInclude Include="include\belle-units.h" />
+    <ClInclude Include="include\belle-utility.h" />
+    <ClInclude Include="include\belle-value.h" />
+    <ClInclude Include="include\belle-voicing.h" />
+    <ClInclude Include="include\belle-vtables.h" />
+    <ClInclude Include="include\belle-wrap.h" />
+    <ClInclude Include="include\belle.h" />
+    <ClInclude Include="include\prim-aes.h" />
+    <ClInclude Include="include\prim-aiff.h" />
+    <ClInclude Include="include\prim-arguments.h" />
+    <ClInclude Include="include\prim-array.h" />
+    <ClInclude Include="include\prim-boolean-pointer.h" />
+    <ClInclude Include="include\prim-complex.h" />
+    <ClInclude Include="include\prim-configuration.h" />
+    <ClInclude Include="include\prim-console.h" />
+    <ClInclude Include="include\prim-constants.h" />
+    <ClInclude Include="include\prim-counter.h" />
+    <ClInclude Include="include\prim-encoding-base64.h" />
+    <ClInclude Include="include\prim-encoding-csv.h" />
+    <ClInclude Include="include\prim-encoding.h" />
+    <ClInclude Include="include\prim-endian.h" />
+    <ClInclude Include="include\prim-environment.h" />
+    <ClInclude Include="include\prim-file.h" />
+    <ClInclude Include="include\prim-graph-t.h" />
+    <ClInclude Include="include\prim-histogram.h" />
+    <ClInclude Include="include\prim-includes.h" />
+    <ClInclude Include="include\prim-json.h" />
+    <ClInclude Include="include\prim-language.h" />
+    <ClInclude Include="include\prim-list.h" />
+    <ClInclude Include="include\prim-math.h" />
+    <ClInclude Include="include\prim-matrix.h" />
+    <ClInclude Include="include\prim-md5.h" />
+    <ClInclude Include="include\prim-memory.h" />
+    <ClInclude Include="include\prim-mod-directory.h" />
+    <ClInclude Include="include\prim-mod-fft.h" />
+    <ClInclude Include="include\prim-mod-javascript-jsc.h" />
+    <ClInclude Include="include\prim-mod-javascript-v8.h" />
+    <ClInclude Include="include\prim-mod-javascript.h" />
+    <ClInclude Include="include\prim-mod-memory-map.h" />
+    <ClInclude Include="include\prim-mod-midi.h" />
+    <ClInclude Include="include\prim-mod-python.h" />
+    <ClInclude Include="include\prim-mod-queue.h" />
+    <ClInclude Include="include\prim-mod-shell.h" />
+    <ClInclude Include="include\prim-mod-thread.h" />
+    <ClInclude Include="include\prim-mod-timer.h" />
+    <ClInclude Include="include\prim-mod-tinyxml.h" />
+    <ClInclude Include="include\prim-planar.h" />
+    <ClInclude Include="include\prim-platform.h" />
+    <ClInclude Include="include\prim-pointer.h" />
+    <ClInclude Include="include\prim-random.h" />
+    <ClInclude Include="include\prim-rational.h" />
+    <ClInclude Include="include\prim-serialization.h" />
+    <ClInclude Include="include\prim-singleton.h" />
+    <ClInclude Include="include\prim-sortable.h" />
+    <ClInclude Include="include\prim-string.h" />
+    <ClInclude Include="include\prim-table.h" />
+    <ClInclude Include="include\prim-time.h" />
+    <ClInclude Include="include\prim-tree.h" />
+    <ClInclude Include="include\prim-types.h" />
+    <ClInclude Include="include\prim-unicode.h" />
+    <ClInclude Include="include\prim-uuid.h" />
+    <ClInclude Include="include\prim-value.h" />
+    <ClInclude Include="include\prim-xml.h" />
+    <ClInclude Include="include\prim.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tool\demo-time.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

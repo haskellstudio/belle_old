@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\belle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-abstracts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-accidentals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-accidental-state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-annotations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-api-header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-api-source.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-articulations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-barline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-barline-state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-beaming.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-blank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-brush.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-cache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-chord-state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-clef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-clef-state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-colors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-coregraphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-dots.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-drawable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-engraver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-engraver-utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-equivalence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-expressions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-filter-autocorrect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-filter-beaming.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-filter-harmonization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-filter-interval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-filter-pitch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-filter-rhythm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-filter-staff-select.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-filter-time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-filter-traversal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-flags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-formats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-freetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-general.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-graphic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-house-style.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-incipits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-instant-state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-island.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-island-generators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-island-state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-juce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-key-signature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-key-signature-state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-label.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-ledger-lines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-measure-rest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-midi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-multivoice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-music.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-music-iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-musicxml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-notes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-octave-transposition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-optics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-painters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-part-state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-pdf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-pedal-markings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-performance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-phrasing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-placement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-publisher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-rests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-rhythm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-score.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-search.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-shapes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-spacing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-springs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-stamp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-stems.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-svg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-svg-painter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-system-generators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-test-suite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-test-suite-data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-time-signature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-time-signature-state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-transitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-tuplets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-units.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-value.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-voicing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-vtables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\belle-wrap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-aes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-aiff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-arguments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-boolean-pointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-complex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-counter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-encoding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-encoding-base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-encoding-csv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-endian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-environment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-graph-t.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-histogram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-language.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-mod-directory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-mod-fft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-mod-javascript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-mod-javascript-jsc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-mod-javascript-v8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-mod-memory-map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-mod-midi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-mod-python.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-mod-queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-mod-shell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-mod-thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-mod-timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-mod-tinyxml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-planar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-pointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-rational.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-serialization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-sortable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-unicode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-uuid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-value.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\prim-xml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tool\demo-time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
